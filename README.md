@@ -17,7 +17,7 @@ al. (2021).
 
 ### References
 
-[Papakonstantinou T, Salanti G, Mavridis D, et al. (2021): Answering Complex Hierarchy Questions in Network Meta-analysis. *BMC Medical Research Methodology*, under review.](https://scholar.google.com/scholar?q=Answering+Complex+Hierarchy+Questions+in+Network+Meta-analysis)
+[Papakonstantinou T, Salanti G, Mavridis D, et al. (2021): Answering Complex Hierarchy Questions in Network Meta-analysis. *BMC Medical Research Methodology*](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-021-01488-3)
 
 
 ## Installation
@@ -33,7 +33,7 @@ Installation using R package
 [**devtools**](https://cran.r-project.org/package=devtools):
 ```r
 install.packages("devtools")
-devtools::install_github("esm-ispm-unibe-ch/nmarank")
+devtools::install_github("tpapak/nmarank")
 ```
 
 
@@ -48,4 +48,4 @@ email to Theodoros Papakonstantinou <dev@tpapak.com> if you use
 RStudio.
 
 You can also report bugs on GitHub under
-[Issues](https://github.com/esm-ispm-unibe-ch/nmarank/issues/).
+[Issues](https://github.com/tpapak/nmarank/issues/).
