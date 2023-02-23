@@ -8,20 +8,20 @@ library(roxygen2)
 ##
 ## (2) Create documentation file(s)
 ##
-document("../nmarank")
+document()
 
 
 ##
 ## (3) Build R package and PDF file with help pages
 ##
-build("../nmarank")
-build_manual("../nmarank")
+build()
+build_manual()
 
 
 ##
 ## (4) Install R package
 ##
-install("../nmarank")
+install()
 
 
 ##
@@ -33,4 +33,4 @@ check(env_vars = c(NOT_CRAN = "FALSE","_R_CHECK_CRAN_INCOMING_"=TRUE))
 ##
 ## (6) Check R package (with dontrun examples)
 ##
-check("../nmarank", run_dont_test = TRUE)
+check(run_dont_test = TRUE)
