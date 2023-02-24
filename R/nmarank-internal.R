@@ -37,7 +37,7 @@ nmaEffects <- function(TE, Cov) {
                   sep = ""))
   }
   ##
-  res <- list(TE = TE, RE = REs$value, Cov = Cov)
+  res <- list(TE = as.matrix(TE), RE = REs$value, Cov = as.matrix(Cov))
   class(res) <- "nmaEffects"
   
   res
