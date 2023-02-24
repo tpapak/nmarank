@@ -1,4 +1,4 @@
-## nmarank, version 0.3-0 (2023-mm-dd)
+## nmarank, version 0.3-0 (2023-02-23)
 
 ### User-visible changes
 
@@ -7,6 +7,8 @@
     and "bad" for argument 'small.values'
 
 ### Internal changes
+
+* Migrated repo to https://github/tpapak/nmarank
 
 * R package **MASS** added to imports
 
