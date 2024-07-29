@@ -2,9 +2,10 @@
 
 Official Git repository of R package **nmarank**
 
-[![CRAN Version](http://www.r-pkg.org/badges/version/nmarank)](https://cran.r-project.org/package=nmarank)
-[![Monthly Downloads](http://cranlogs.r-pkg.org/badges/nmarank)](http://cranlogs.r-pkg.org/badges/nmarank)
-[![Total Downloads](http://cranlogs.r-pkg.org/badges/grand-total/nmarank)](http://cranlogs.r-pkg.org/badges/grand-total/nmarank)
+[![License: GPL (>=3)](https://img.shields.io/badge/license-GPL--3-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![CRAN Version](https://www.r-pkg.org/badges/version/nmarank)](https://cran.r-project.org/package=nmarank)
+[![Monthly Downloads](https://cranlogs.r-pkg.org/badges/nmarank)](https://cranlogs.r-pkg.org/badges/nmarank)
+[![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/nmarank)](https://cranlogs.r-pkg.org/badges/grand-total/nmarank)
 
 
 ## Description
@@ -22,7 +23,7 @@ al. (2021).
 
 ## Installation
 
-### Current official [![CRAN Version](http://www.r-pkg.org/badges/version/nmarank)](https://cran.r-project.org/package=nmarank) release:
+### Current official [![CRAN Version](https://www.r-pkg.org/badges/version/nmarank)](https://cran.r-project.org/package=nmarank) release:
 ```r
 install.packages("nmarank")
 ```
@@ -30,10 +31,10 @@ install.packages("nmarank")
 ### Current beta / GitHub release:
 
 Installation using R package
-[**devtools**](https://cran.r-project.org/package=devtools):
+[**remotes**](https://cran.r-project.org/package=remotes):
 ```r
-install.packages("devtools")
-devtools::install_github("tpapak/nmarank")
+install.packages("remotes")
+remotes::install_github("tpapak/nmarank")
 ```
 
 
