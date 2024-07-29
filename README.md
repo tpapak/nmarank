@@ -2,7 +2,7 @@
 
 Official Git repository of R package **nmarank**
 
-[![License: GPL (>=2)](https://img.shields.io/badge/license-GPL-blue)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![License: GPL (>=3)](https://img.shields.io/badge/license-GPL--3-blue)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 [![CRAN Version](https://www.r-pkg.org/badges/version/nmarank)](https://cran.r-project.org/package=nmarank)
 [![Monthly Downloads](https://cranlogs.r-pkg.org/badges/nmarank)](https://cranlogs.r-pkg.org/badges/nmarank)
 [![Total Downloads](https://cranlogs.r-pkg.org/badges/grand-total/nmarank)](https://cranlogs.r-pkg.org/badges/grand-total/nmarank)
