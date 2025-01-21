@@ -21,7 +21,7 @@ Combine selections with AND
 data("Woods2010", package = "netmeta")
 p1 <- pairwise(treatment, event = r, n = N, studlab = author,
   data = Woods2010, sm = "OR")
-net1 <- netmeta(p1, small.values = "good")
+net1 <- netmeta(p1, small.values = "desirable")
 
 A <- condition("retainOrder", c("Placebo", "Salmeterol", "SFC"))
 B <- condition("betterEqual", "Fluticasone", 2)

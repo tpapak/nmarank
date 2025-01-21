@@ -4,11 +4,11 @@
 #' @importFrom rlang is_empty .data
 #' @importFrom stats runif
 #' @importFrom mvtnorm rmvnorm
+#' @importFrom meta gs
 #' @importFrom netmeta netmeta
 #' @importFrom dplyr %>% filter
 #' @importFrom tibble rownames_to_column
 #' @importFrom data.tree FromListExplicit
-
 
 nmaEffects <- function(TE, Cov) {
   
@@ -42,9 +42,9 @@ nmaEffects <- function(TE, Cov) {
   
   res
 }
+
 makeID <- function(op)
   paste(op, as.character(floor(runif(1, 0, 1) * 10000)), sep = "_")
-
 
 makeNode <- function(selectionList) {
   if (is.null(selectionList$root)) {
@@ -57,7 +57,6 @@ makeNode <- function(selectionList) {
   
   out
 }
-
 
 selectionHolds <- function(node, small.values, leagueTable) {
   
@@ -92,7 +91,6 @@ selectionHolds <- function(node, small.values, leagueTable) {
 
   invisible(NULL)
 }
-
 
 setsv <- function(x) {
   if (is.null(x))

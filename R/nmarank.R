@@ -13,7 +13,7 @@
 #' position, and the sum of their frequencies constitute the certainty
 #' around the criterion.
 #'
-#' @param TE.nma Either a \code{\link{netmeta}} object or a matrix
+#' @param TE.nma Either a \code{\link[netmeta]{netmeta}} object or a matrix
 #'   with network estimates.
 #' @param condition Defines the conditions that should be satisfied by
 #'   the treatments in the network. Multiple conditions can be
@@ -22,7 +22,7 @@
 #' @param text.condition Optional descriptive text for the condition.
 #' @param VCOV.nma Variance-covariance matrix for network estimates
 #'   (only considered if argument \code{TE.nma} isn't a
-#'   \code{\link{netmeta}} object).
+#'   \code{\link[netmeta]{netmeta}} object).
 #' @param pooled A character string indicating whether the hierarchy
 #'   is calculated for the common effects (\code{"common"}) or random
 #'   effects model (\code{"random"}). Can be abbreviated.
@@ -50,7 +50,7 @@
 #' data("Woods2010", package = "netmeta")
 #' p1 <- pairwise(treatment, event = r, n = N, studlab = author,
 #'                data = Woods2010, sm = "OR")
-#' net1 <- netmeta(p1, small.values = "good")
+#' net1 <- netmeta(p1, small.values = "desirable")
 #'
 #' nmarank(net1, nsim = 100)
 #'
@@ -252,8 +252,6 @@ nmarank <- function(TE.nma, condition = NULL, text.condition = "",
 
 #' @rdname nmarank
 #' @method print nmarank
-#'
-#' @importFrom meta gs
 #' 
 #' @export
 #' @export print.nmarank

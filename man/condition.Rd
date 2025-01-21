@@ -68,7 +68,7 @@ a complex condition E:
 data("Woods2010", package = "netmeta")
 p1 <- pairwise(treatment, event = r, n = N, studlab = author,
   data = Woods2010, sm = "OR")
-net1 <- netmeta(p1, small.values = "good")
+net1 <- netmeta(p1, small.values = "desirable")
 
 # criterionA if all treatments are in the exact defined order
 criterionA <-
