@@ -24,7 +24,7 @@ nmarank(
 )
 }
 \arguments{
-\item{TE.nma}{Either a \code{\link{netmeta}} object or a matrix
+\item{TE.nma}{Either a \code{\link[netmeta]{netmeta}} object or a matrix
 with network estimates.}
 
 \item{condition}{Defines the conditions that should be satisfied by
@@ -36,7 +36,7 @@ combined with special operators into any decision tree. See
 
 \item{VCOV.nma}{Variance-covariance matrix for network estimates
 (only considered if argument \code{TE.nma} isn't a
-\code{\link{netmeta}} object).}
+\code{\link[netmeta]{netmeta}} object).}
 
 \item{pooled}{A character string indicating whether the hierarchy
 is calculated for the common effects (\code{"common"}) or random

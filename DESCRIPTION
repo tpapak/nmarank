@@ -1,7 +1,7 @@
 Package: nmarank
 Title: Complex Hierarchy Questions in Network Meta-Analysis
-Version: 0.3-0
-Date: 2023-02-23
+Version: 0.3-1
+Date: 2026-04-06
 Depends: R (>= 4.0.0), meta, netmeta (>= 2.7-0)
 Imports: dplyr, tibble, rlang, MASS, data.tree, mvtnorm, tidyr
 Suggests: testthat
@@ -24,4 +24,4 @@ URL: https://github.com/tpapak/nmarank
 Description: Derives the most frequent hierarchies along with their probability of occurrence. One can also define complex hierarchy criteria and calculate their probability. Methodology based on Papakonstantinou et al. (2021) <DOI:10.21203/rs.3.rs-858140/v1>.
 License: GPL-3
 Encoding: UTF-8
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3
